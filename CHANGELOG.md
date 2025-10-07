@@ -24,8 +24,6 @@ Version numbers follow this format: `MAJOR.MINOR.PATCH`
 
 Use `0.x.x` while the project is still in early development. Move to `1.0.0` when it's ready for public release.
 
----
-
 ## [Unreleased]
 ### Added
 - Placeholder for upcoming features
@@ -36,3 +34,17 @@ Use `0.x.x` while the project is still in early development. Move to `1.0.0` whe
 ### Added
 - Initial version of the stock dashboard
 - `main.py` file
+
+## [0.1.1] - 2025-10-07
+### Added
+- `FEATURESLOG.md` file
+- `test_main.py` file
+- Manual ticker selection using `st.text_input`
+- Unit tests for valid and invalid ticker inputs in `test_main.py`
+### Changed
+- Updated `features_log.md` to reflect completed features and tests
+### Notes
+- Chart display and Streamlit layout still pending
+
+
+

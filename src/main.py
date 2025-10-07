@@ -8,8 +8,14 @@ st.title("📈 Stock Dashboard")
 # Input field for the stock ticker
 ticker = st.text_input("Enter Stock Ticker Symbol", "AAPL")
 
-# Download stock data from Yahoo Finance
-data = yf.download(ticker, period="1mo", interval="1d")
+# Download data
+if ticker:
+    data = yf.download(ticker, period="1mo", interval="1d", auto_adjust=True)
+    if not data.empty:
+        st.success(f"Data loaded for {ticker}")
+        st.write(data.tail())
+    else:
+        st.error("No data found. Please check the ticker symbol.")
 
 # Create a line chart of the closing prices
 fig = go.Figure()

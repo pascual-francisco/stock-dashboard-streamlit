@@ -23,6 +23,18 @@ Use `0.x.x` while the project is still in early development. Move to `1.0.0` whe
 ### Removed: Features that were taken out
 ### Notes: Important information
 
+# [0.2.0]
+### Added: New features
+
+### Changed: Updates or improvements
+
+### Fixed: Bug fixes
+
+### Removed: Features that were taken out
+
+### Notes: Important information
+- These changes are in progress and will be included in version `0.2.0`
+
 ## [0.1.2]
 ### Added
 - Load data from Yahoo Finance
@@ -69,47 +81,6 @@ Use `0.x.x` while the project is still in early development. Move to `1.0.0` whe
 - Initial version of the stock dashboard
 - `main.py` file
 
-
-
-## [0.1.0] - 2025-10-04  
-### Added  
-- Initial version of the stock dashboard  
-- `main.py` file  
-
----
-
-## [0.1.1] - 2025-10-07  
-### Added  
-- Load data from Yahoo Finance  
-- Manual ticker selection using `st.text_input`  
-- Period selection  
-- Custom date range selector  
-- Interval selection  
-- Stock Ticker Symbol Selection  
-- Load Data Button  
-- Display historical price charts  
-- Error handling for invalid tickers  
-- Basic Streamlit interface  
-- `FEATURESLOG.md` file  
-- `test_main.py` file  
-- Unit test: valid ticker loads data  
-- Unit test: invalid ticker triggers error message  
-- Integration test: chart renders with valid data  
-- UI test: Streamlit components respond correctly  
-
-### Changed  
-- Updated `features_log.md` to reflect completed features and tests  
-
-### Fixed  
-- N/A  
-
-### Removed  
-- N/A  
-
-### Notes  
-- Chart display and Streamlit layout still pending  
-
----
 
 ## [0.2.0] - Unreleased  
 ### Added  
